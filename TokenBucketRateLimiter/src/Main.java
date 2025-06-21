@@ -16,6 +16,13 @@ public class Main {
             });
         }
         executor.shutdown();
+//        without concurrency check
+//        TokenBucketRateLimiter limiter = new TokenBucketRateLimiter(10, 5); // 5 tokens/sec
+//        if (limiter.allowRequest("User_Arkaza")) {
+//            System.out.println("Allowed");
+//        } else {
+//            System.out.println("Denied");
+//        }
 
     }
 }
